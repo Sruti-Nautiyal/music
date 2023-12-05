@@ -1,0 +1,144 @@
+/* #root {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+
+  /* padding: 2rem;
+} 
+
+/* form css */
+body {
+  color: white;
+  font-size: 15px;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  background-color: #030303;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+}
+.container2 {
+  width: 32rem;
+  height: 100vh;
+  padding: 1rem;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box {
+  margin-bottom: 15px;
+  /* align-items: start; */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.que {
+  display: flex;
+  align-items: flex-start;
+}
+
+.item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.box3 {
+  gap: 4rem;
+}
+
+input {
+  border-radius: 10px;
+  height: 2rem;
+  background: #030303;
+  border: 1px solid #ffffff;
+}
+
+.text-disable {
+  width: 3rem;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 13px;
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  background: #c2c2c2;
+  color: rgb(101, 97, 97);
+}
+.text-able {
+  width: 3rem;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 13px;
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+}
+
+.num-able {
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  height: 2rem;
+  width: 14rem;
+  border: 2px solid white;
+  border-radius: 13px;
+}
+
+.num-disable {
+  /* display: flex;
+      align-items: center;
+      justify-content: center; */
+  height: 2rem;
+  width: 14rem;
+  background: #c2c2c2;
+  border: 2px solid white;
+  border-radius: 13px;
+  color: rgb(101, 97, 97);
+}
+
+.btn-able {
+  width: 100%;
+  background: #6741d9;
+  color: white;
+  font-weight: bold;
+}
+.btn-able:active {
+  border: 1px solid #f0c3f1;
+}
+.btn-able:hover {
+  border: 1px solid #f0c3f1;
+}
+
+.btn-disable {
+  width: 100%;
+  background: #c2c2c2;
+  color: rgb(101, 97, 97);
+  font-weight: bold;
+}
+
+input {
+  color: white;
+  text-align: center;
+}
+.chart {
+  /* border: 1px solid white; */
+  width: 600px;
+}
